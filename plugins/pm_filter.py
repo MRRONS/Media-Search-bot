@@ -1,4 +1,4 @@
-#Kanged From @TroJanZheX
+
 from info import AUTH_CHANNEL, AUTH_USERS, CUSTOM_FILE_CAPTION, API_KEY, AUTH_GROUPS
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton, CallbackQuery
 from pyrogram import Client, filters
@@ -276,7 +276,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻🍿', url='https://t.me/fchdvd')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/mrronbot'>๓г г๏ภ<\a> \nJoin Our Channels 🌝:\n\n✧-----✧-----✧-----✧-----✧\n\n🔊 Group: @filmcityhd1\n\🔊 Webseries: @fchweb\n🔊 Movie Updates : @fchdvd", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="Join Our Channels 🌝:\n✧-----✧-----✧-----✧-----✧\n\n🔊 Group: @filmcityhd1\n\🔊 Webseries: @fchweb\n🔊 Movie Updates : @fchdvd", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
