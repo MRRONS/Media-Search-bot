@@ -276,7 +276,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('𝚄𝙿𝙳𝙰𝚃𝙴 𝙲𝙷𝙰𝙽𝙽𝙴𝙻🍿', url='https://t.me/fchdvd')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/mrronbot'>๓г г๏ภ</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://github.com/subinps/Media-Search-bot'>Click here</a>\nUpdate Channel : <a href='https://t.me/subin_works'>XTZ Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/mrronbot'>๓г г๏ภ\nJoin Our Channels 🌝:\n\n✧-----✧-----✧-----✧-----✧\n\n🔊 Group: @filmcityhd1\n\🔊 Webseries: @fchweb\n🔊 Movie Updates : @fchdvd", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
